@@ -22,6 +22,7 @@ public class TestGmail {
 	String username;
 	String pass;
 	
+	
 	@BeforeTest
 	public void setup() throws IOException {
 		String path=System.getProperty("user.dir")+"\\Resource";
